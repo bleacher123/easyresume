@@ -1,115 +1,135 @@
 {
-    "name": “胡洪涛”,
-    "birth": “1988.12.25”,
-    "tel": "13661000179”,
-    "email": “1620382372@qq.com”,
-    "blog": “nil”,
-    "avatar": "image/avatar.jpg",
-    "pages": [],
-    "summaries": [
-        "使用Swift3和Xcode8进行iOS app开发。",
-        "主攻App前段，也涉猎并服务端学习研究，力争做到全栈。",
-        "熟悉并能应用面向对象设计原则、掌握多种设计模式，熟悉Java多线程、同步模型，了解分布式架构。",
-        "秉承高聚合低耦合理念，熟悉MVC开发模式，将功能模块化封装、继承。",
-        "GCD和NSOperation多线程，Autolayout UI布局，coredata、leanCloud存储，交互，json解析，动画效果，会使用第三方库进行高效开发。"
-    ],
-    "workExperiences": [
+  "name": "胡洪涛",
+  "birth": "1988.12.25",
+  "tel": "13661000179",
+  "email": "1620382372@qq.com",
+  "blog": "nil",
+  "avatar": "/Users/teriyakibob/Desktop/Picture/l2.jpeg",
+  "pages": [],
+  "summaries": [
+    "使用Swift3和Xcode8进行iOS app开发。",
+    "主攻App前段，也涉猎并服务端学习研究，力争做到全栈。",
+    "熟悉并能应用面向对象设计原则、掌握多种设计模式，熟悉Java多线程、同步模型，了解分布式架构。",
+    "秉承高聚合低耦合理念，熟悉MVC开发模式，将功能模块化封装、继承。",
+    "GCD和NSOperation多线程，Autolayout UI布局，coredata、leanCloud存储，交互，json解析，动画效果，会使用第三方库进行高效开发。"
+  ],
+  "workExperiences": [
+    {
+      "company": "COSL",
+      "post": "Safety Managem",
+      "startDate": "2011.09",
+      "endDate": "2017.03",
+      "summary": "统计整理QHSE相关数据，并完成相关周报，月报，按照要求做汇报PPT、Report等；制定培训计划，定期开展培训；参与公司体系编写",
+      "details": [
+        "统计收集公司QHSE相关数据并进行分析归纳整理，并完成相关周报，月报，PPT、Report等",
+        "按照公司要求部署，制定基层员工培训计划，督促定期开展，并参与培训讲师工作",
+        "按照相关最新法律法规，参与公司体系编写工作，并圆满完成"
+      ]
+    },
+    {
+      "company": "nil",
+      "post": "nil",
+      "startDate": "2016.04",
+      "endDate": "至今",
+      "summary": "进行iOS开发使用Swift语言进行实际仿写Demo，研究主流功能，学习使用各种Api。",
+      "details": [
+        "Xcode8各项功能使用，页面Autolayout布局，GCD多线程优化App。",
+        "动画效果的使用配置，CoreDCoreDateCoreDate存储。",
+        "使用Amalofire和SwiftJson库Get和Post网络端链接"
+      ]
+    }
+  ],
+  "projectExperiences": [
+    {
+      "projectName": "仿写映客直播",
+      "role": "学习开发",
+      "startDate": "2017.02",
+      "endDate": "2017.02",
+      "summary": "调用直播Api接口和IJKMediaFramework框架进行基础仿写。",
+      "details": [
+        "使用封装好的IJKMediaFramework框架集成到App内。",
+        "集成Lightweight级的烟花和礼物功能第三方库。",
+        "使用Just进行Http链接Post和Get，并用KingFisher异步下载网络图片。"
+      ]
+    },
+    {
+      "projectName": "点评类App仿写",
+      "role": "学习开发",
+      "startDate": "2017.03",
+      "endDate": "2017.03",
+      "summary": "交互、动画动画、存储",
+      "details": [
+        "页面交互、页面导航结构、数据交互等。",
+        "使用CoreDate和LeanCloud进行数据永久化存储。",
+        "使用MapKit获取地图坐标。。",
+        "使用Charts进行各类数据图表的迅速生成。"
+      ]
+    }
+  ],
+  "sections": [
+    {
+      "title": "功能模块",
+      "fragments": [
         {
-            "company": “COSL”,
-            "post": “Safety Management”,
-            "startDate": "2011.09”,
-            "endDate": “2017.03”,
-            "summary": "统计整理QHSE相关数据，并完成相关周报，月报，按照要求做汇报PPT、Report等；制定培训计划，定期开展培训；参与公司体系编写。"
-            ]
-            "details": [
-                "统计收集公司QHSE相关数据并进行分析归纳整理，并完成相关周报，月报，PPT、Report等”,
-                “按照公司要求部署，制定基层员工培训计划，督促定期开展，并参与培训讲师工作”,
-                “按照相关最新法律法规，参与公司体系编写工作，并圆满完成。”
-            ]
+          "name": "轮播器功能仿写",
+          "comment": "",
+          "startDate": "",
+          "endDate": "",
+          "summary": "利用两张图片，高效率，低占用缓存进行轮播器功能仿写。",
+          "details": [
+            "完成轮播器功能"
+          ]
         },
         {
-            "company": “nil”,
-            "post": “nil“,
-            "startDate": "2016.04”,
-            "endDate": “至今”,
-            "summary": “跨界开始自学iOS开发使用Swift语言进行实际仿写Demo，研究主流功能，学习使用各种Api。”,
-            "details": [
-                “Xcode8各项功能使用，页面Autolayout布局，GCD多线程优化App。”,
-                “动画效果的使用配置。”,
-                “使用Amalofire和SwiftJson库Get和Post网络端链接。”
-            ]
+          "name": "",
+          "comment": "",
+          "startDate": "",
+          "endDate": "",
+          "summary": "",
+          "details": [
+            ""
+          ]
         }
-    ],
-    "projectExperiences": [
+      ]
+    },
+    {
+      "title": "",
+      "fragments": [
         {
-            "projectName": “仿写映客直播”,
-            "role": “学习开发",
-            "startDate": "2017.02”,
-            "endDate": "2017.02”,
-            "summary": “调用直播Api接口和IJKMediaFramework框架进行基础仿写。”,
-            "details": [
-                “为减少配置错误，使用封装好的IJKMediaFramework框架集成到App内。”,
-                “集成Lightweight级的烟花和礼物功能第三方库。”,
-                “使用Just进行Http链接Post和Get，并用KingFisher异步下载网络图片。”
-            ]
-        }，
-        {
-            "projectName": “点评类App仿写”,
-            "role": "学习开发",
-            "startDate": "2017.03”,
-            "endDate": "2017.04”,
-            "summary": "",
-            "details": [
-                "页面交互、页面导航结构、数据交互等。”,
-                “使用CoreDate和LeanCloud进行数据永久化存储。”,
-                “使用MapKit获取地图坐标。”,
-                “使用Charts进行各类数据图表的迅速生成。”
-            ]
+          "name": "",
+          "comment": "",
+          "startDate": "",
+          "endDate": "",
+          "summary": "",
+          "details": [
+            ""
+          ]
         }
-    ],
-    "sections": [
-        {
-            "title": “功能模块”,
-            "fragments": [
-                {
-                    "name": “轮播器功能仿写”,
-                    "comment": "",
-                    "startDate": "",
-                    "endDate": "",
-                    "summary": “利用两张图片，高效率，低占用缓存进行轮播器功能仿写。”,
-                    "details": []
-                }
-            ]
-        },
-        {
-            "title": "英语能力",
-            "points": [
-                "英语四级证书。"
-            ]
-        }，
-        {
-            "title": “计算机能力",
-            "points": [
-                “国家计算机二级证书。"
-            ]
-        }
-    ],
-    "educations": [
-        {
-            "university": “大连交通大学",
-            "studyType": "本科",
-            "major": “自动化”,
-            "startDate": "2007.09”,
-            "endDate": "2011.07",
-            "gpa": “nil”,
-            "scholarships": [
-                “nil”
-            ],
-            "experiences": [
-                “学习自动化原理、C语言、PLC、英语、日语”
-                
-            ]
-        }
-    ]
+      ]
+    },
+    {
+      "title": "获得证书",
+      "points": [
+        "英语四级证书",
+        "国家计算机二级证书",
+        "证券从业资格证书"
+      ]
+    }
+  ],
+  "educations": [
+    {
+      "university": "大连交通大学",
+      "studyType": "本科",
+      "major": "自动化",
+      "startDate": "2007.09",
+      "endDate": "2011.07",
+      "gpa": "",
+      "scholarships": [
+        ""
+      ],
+      "experiences": [
+        "学习自动化原理、C语言、PLC、英语、日语."
+      ]
+    }
+  ]
 }
-
